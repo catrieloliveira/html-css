@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+    id = # (só pode ter um elemento)
+    class = . (pode ter vários elementos)
+*/
+
+body {
+    margin: auto;
+    width: 800px;
+    background-image: linear-gradient(to right,rgb(83, 178, 83), rgb(174, 228, 174));
+}
+
+main {
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+h1 {
+    color: rgb(0, 116, 116);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h2 {
+    color: rgb(0, 27, 121);
+}
+p {
+    text-indent: 15px;
+    text-align: justify;
+}
+.basico {
+    color: green;
+}
+.intermediario {
+    color: yellow;
+}
+.avancado {
+    color: red;
+}

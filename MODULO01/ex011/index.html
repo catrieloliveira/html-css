@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos de Imagens</title>
+</head>
+<body>
+    <h1>Teste de tamanhos</h1>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador. </p>
+    <picture>
+        <!--E usado para insercao de imagens-->
+        <source media="(max-width:750px" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <!--Usado para indicar uma nova imagem apos a mudanca de tamanho no navegador-->
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+        <!--Inseri uma imagem no navegador-->
+        <
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender agora a reproduzir áudios.</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <h1>Outra forma de fazer</h1>
+    <p>Outra forma de inserir audios ao s</p>
+    <audio preload="metadata" autoplay controls loop>
+        <!--controls cria um box de reprodução-->
+        <!--autoplay reproduz automaticamente o audio no site-->
+        <!--Loop faz a repetição em cadeia do audio-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <!--Aqui voce define a sequencia que o navegador vai ler o audio se ele for mp3,ogg ou Wav.-->
+    </audio>
+</body>
+</html>
